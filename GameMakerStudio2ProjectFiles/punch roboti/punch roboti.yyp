@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "punch roboti",
   "resources": [
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":20,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":18,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":16,},
     {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},"order":17,},

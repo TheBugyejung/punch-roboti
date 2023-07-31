@@ -21,4 +21,16 @@ if isPlaying {
 }
 
 
+/*
+if mouse_check_button_pressed(vk_f12) {
+	global.fullscreen += 1;
+}
 
+if (global.fullscreen == 1) {
+	window_set_fullscreen(true);
+}
+
+if (global.fullscreen == 2) {
+	window_set_fullscreen(false);
+	global.fullscreen -= 2;
+}
