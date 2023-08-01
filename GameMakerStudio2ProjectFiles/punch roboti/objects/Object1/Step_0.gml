@@ -21,16 +21,45 @@ if isPlaying {
 }
 
 
-/*
-if mouse_check_button_pressed(vk_f12) {
-	global.fullscreen += 1;
+
+if ( keyboard_check_pressed( vk_f12 )) {
+	window_set_fullscreen( !window_get_fullscreen());
 }
 
-if (global.fullscreen == 1) {
-	window_set_fullscreen(true);
+
+if (keyboard_check_pressed(ord("1"))) {
+	sprite_index = Sprite1;
+	lazer_sound = 0
 }
 
-if (global.fullscreen == 2) {
-	window_set_fullscreen(false);
-	global.fullscreen -= 2;
+if (keyboard_check_pressed(ord("2"))) {
+	sprite_index = Sprite2;
+	lazer_sound = 0
+}
+
+if (keyboard_check_pressed(ord("3"))) {
+	sprite_index = Sprite3;
+	lazer_sound = 0
+}
+
+if (keyboard_check_pressed(ord("4"))) {
+	sprite_index = Sprite4;
+	lazer_sound = 1
+}
+
+
+if mouse_check_button_pressed(mb_left)or mouse_check_button_pressed(mb_right) 
+or keyboard_check_pressed(vk_anykey) {
+	if (lazer_sound == 0) {
+		audio_play_sound(punch, 1, false)
+	}
+		else if (lazer_sound == 1) {
+		audio_play_sound(lazer, 1, false)
+		}
+}
+
+
+if (keyboard_check_pressed(vk_f2)) {
+	window_set_size(768, 1366)
+	room_goto(1);
 }

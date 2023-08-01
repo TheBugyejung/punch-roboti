@@ -5,9 +5,16 @@
   "resources": [
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":20,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":18,},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":16,},
+    {"id":{"name":"lazer","path":"sounds/lazer/lazer.yy",},"order":25,},
+    {"id":{"name":"punch","path":"sounds/punch/punch.yy",},"order":0,},
+    {"id":{"name":"background2","path":"sprites/background2/background2.yy",},"order":22,},
+    {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":24,},
     {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},"order":17,},
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":23,},
     {"id":{"name":"click_count","path":"objects/click_count/click_count.yy",},"order":19,},
+    {"id":{"name":"background","path":"sprites/background/background.yy",},"order":21,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -34,6 +41,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
