@@ -15,6 +15,8 @@ https://thebugyejung.github.io/punch-roboti/
 * [ ] 모바일 지원
 * [ ] 버그 고치기
 
+
 ## 크레딧
 그림: 새발자  
-팸/맞음: 애플린/로보티
+팸/맞음: 애플린/로보티  
+함수까지 만들며 코드 뻥튀기 시켜주는 ChatGPT
