@@ -14,6 +14,7 @@ https://thebugyejung.github.io/punch-roboti/
 * [ ] 폰트 해상도 개선
 * [ ] 모바일 지원
 * [ ] 버그 고치기
+* [ ] 데이터 저장
 
 
 ## 크레딧
